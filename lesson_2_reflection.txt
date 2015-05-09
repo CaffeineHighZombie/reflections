@@ -25,6 +25,12 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	The git branches would be useful in situations involving commits where we might be trying
+	out some new experimentl features or a vairation which for the time being need not be inculded
+	in the master branch. Thus creating branches for such changes helps us maintian the working 
+	code in a separate area and at the same time working on both the experimental features and
+	it concurrently.
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
