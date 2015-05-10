@@ -1,55 +1,55 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-	When we initialize a repository, git create a hidden .git folder which can be used to track
-	the files we add to the repository. We need it to keep record of the changes and commits.
+	When we initialize a repository, git creates a hidden .git folder which can be used to track
+	the files we add to the repository. We need it to keep a record of the changes and commits.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
 	Staging area is bridge between directory and repository where we can add files
 	that we'd like to be tracked by Git and it holds them till we are ready to make
-	the commit to the repository itself or even, if need be, remove hem from being
+	the commit to the repository itself or even, if need be, remove them from being
 	tracked. 
 	Having staging allows us the ability to track the files we'd like instead of say 
 	the whole directory. Furthermore, it holds all the changes in the file(s) till they
-	are ready to be commited.
+	are ready to be committed.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-	With staging area we will just ass files to it that represent that one logical change
-	block. Then commit that before moving to commiting next set of files with logical changes.
+	With staging area, we will just add files to it that represent that one logical change
+	block. Then commit that before moving to committing next set of files with logical changes.
 	Also, with the help of git diff and git diff --staged we can make sure the files that we 
-	are adding and commiting really holds that one quanta of logical change.
+	are adding and committing really holds that one quanta of logical change.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
 	The git branches would be useful in situations involving commits where we might be trying
-	out some new experimentl features or a vairation which for the time being need not be inculded
-	in the master branch. Thus creating branches for such changes helps us maintian the working 
+	out some new experimental features or a variation which for the time being need not be included
+	in the master branch. Thus creating branches for such changes helps us maintain the working 
 	code in a separate area and at the same time working on both the experimental features and
 	it concurrently.
 
 How do the diagrams help you visualize the branch structure?
 
 	With diagrams representing the branch structure it is easier to see where or rather at which commit
-	does the branch split from the master branch and its respective progress with commits contained in it.
+	does the branch split from the master branch and its respective progress with commits contained within it.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
 	By merging two branches together we get a new commit which contains the changes made in both the
-	branches till then tip. Representing it in the given diagramatic fashion helps us to understand 
-	and analyse where do the braches split and different changes in them. This enables us to make a 
+	branches till the tip. Representing it in the given diagrammatic fashion helps us to understand 
+	and analyse where do the branches split and different changes in them. This enables us to make a 
 	better judgement of if and when to merge.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
 
-	Git's automatic merging allows a sure fire way to create a commit combining all the fucnationality of 
+	Git's automatic merging allows a sure fire way to create a commit combining all the functionality of 
 	two or more involved branches. Albeit, it fails to read the semantics of the program and would miss 
-	naunces such as different implementation of a same function and would throw an conflict error. With 
-	manual merge we can use our expertise to combine two or more branches seemlessly taking care of any 
-	conflicts. Yet this is extremly time consuming and intensive work. So a combination of automatic merge 
-	manual merge does an extremely effective job.
+	naunces such as a different implementation of a same function and would throw a conflict error. With 
+	manual merge we can use our expertise to combine two or more branches seamlessly taking care of any 
+	conflicts. Yet this is extremely time consuming and intensive work. So a combination of automatic merge 
+	and manual merge does an extremely effective job.
