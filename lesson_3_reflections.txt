@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+   We would want to use remote repository rather working with just local respository when we might be working 
+   from a bunch of different computers or we are collaborating on a project with other people. On top of it, 
+   it also allows the implicit data redundacy on the cloud and ability share the project with public.
+   
