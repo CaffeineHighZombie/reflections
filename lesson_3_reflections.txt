@@ -11,5 +11,4 @@ Why might you want to always pull changes manually rather than having Git automa
     when we would like to include the changes from the remote repository. Also, with the ability to context 
     switch with local branches we can incoporate and test changes locally in different branch other than 
     master and then, merge them according to our wish.
-
-# Testing wincred 
+ 
