@@ -31,4 +31,13 @@ What is the benefit of having a copy of the last known state of the remote store
     we can find out if the current local branch is in-sync or out-of-sync with remote branch and 
     approriately run git merge to get a combined output.
 
- 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+    If it were documents, spreadsheets, text files, and presentation, I would have used google drive and 
+    docs. This would have enabled me to concurently work with my collaborator on a single file at the same 
+    time, see revision history, comments, annotation, etc. This would reduced the overhead with committing, 
+    pushing and pulling changes manually and also the apparent lack of real-time collaboration. But on the 
+    other hand if it were code (or better yet project with multiple code files and all), we would be using 
+    dropbox, GDrive or similar and version each code file by chaning the file name. This would have a 
+    compounded complexity very quickly, and the changes and bugs would be very tedious to keep track of. 
+      
