@@ -11,4 +11,15 @@ Why might you want to always pull changes manually rather than having Git automa
     when we would like to include the changes from the remote repository. Also, with the ability to context 
     switch with local branches we can incoporate and test changes locally in different branch other than 
     master and then, merge them according to our wish.
- 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+    
+    Branches are labels given to chain of commits with each commit only referencing its parent commit. 
+    Branches can be used to test out a new experimental feature or to fix a bug within a repository.
+    Clones are exact copies of a remote or even a local repository in a newly created local respository 
+    with the history of the commits and realted files. Clones are used to create dulicates of remote 
+    files on a local computer and thus enable us to work on them locally.
+    Forks are clones of someone else's project on remote repository onto our own remote repository with 
+    attribution linking. Forks are used to quickly make clones on a remote repository and enable us to 
+    work on a project on our own or even contribute to the project/
+    
